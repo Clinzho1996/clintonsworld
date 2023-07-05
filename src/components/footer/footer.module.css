@@ -1,0 +1,18 @@
+.container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.copy {
+  color: #f84e61;
+  font-weight: bold;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
