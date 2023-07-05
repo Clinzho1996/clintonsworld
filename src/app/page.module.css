@@ -24,6 +24,16 @@
   height: 500px;
   object-fit: contain;
   border-radius: 50px;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
 }
 
 .desc {

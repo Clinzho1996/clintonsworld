@@ -1,0 +1,45 @@
+.mainTitle {
+  font-size: 100px;
+}
+
+.container {
+}
+
+.selectTitle {
+  margin: 20px 0px;
+}
+
+.items {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.item {
+  border: 5px solid #bbb;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  background-size: cover !important;
+}
+
+.item:nth-child(1) {
+  background: url("/illustration.jpg");
+}
+
+.item:nth-child(2) {
+  background: url("/elchari.webp");
+}
+
+.item:nth-child(3) {
+  background: url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.title {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f84e61;
+}
