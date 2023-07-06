@@ -22,3 +22,10 @@
   font-size: 20px;
   color: #999;
 }
+
+.loader {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

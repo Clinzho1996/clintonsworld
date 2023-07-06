@@ -55,6 +55,13 @@
   background-color: #720512;
 }
 
+.loader {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @keyframes move {
   from {
     transform: translateY(-15px);

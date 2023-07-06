@@ -43,3 +43,10 @@
   font-weight: bold;
   color: #f84e61;
 }
+
+.loader {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
