@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        Clinton's Wprld
+        Clintons Wprld
       </Link>
       <div className={styles.links}>
         <DarkModeToggle />
