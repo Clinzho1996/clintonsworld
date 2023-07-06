@@ -23,6 +23,8 @@
   height: 500px;
   position: relative;
   flex: 1;
+  border: 5px solid #bbb;
+  border-radius: 10px;
 }
 
 .img {

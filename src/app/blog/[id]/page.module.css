@@ -36,6 +36,8 @@
   flex: 1;
   height: 300px;
   position: relative;
+  border: 5px solid #bbb;
+  border-radius: 10px;
 }
 
 .image {

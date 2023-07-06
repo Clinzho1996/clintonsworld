@@ -40,6 +40,21 @@
   animation: move 3s infinite ease alternate;
 }
 
+.button {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #f84e61;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #720512;
+}
+
 @keyframes move {
   from {
     transform: translateY(-15px);
