@@ -1,14 +1,9 @@
-"use client"
-import React, {useState} from "react";
+"use client";
+import React, { useState } from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "@/components/Button/Button";
 import { useRouter } from "next/navigation";
-
-export const metadata = {
-  title: "Dev Clinton's Contact Info",
-  description: "This is my phone number",
-};
 
 const Contact = () => {
   const [error, setError] = useState(null);
@@ -67,7 +62,7 @@ const Contact = () => {
             rows="10"
             placeholder="Enter Your Message"
           ></textarea>
-         <button className={styles.button}>Send Message</button>
+          <button className={styles.button}>Send Message</button>
           {error && "Something went wrong!"}
         </form>
       </div>
